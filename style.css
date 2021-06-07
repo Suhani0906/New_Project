@@ -97,6 +97,13 @@
     
 }
 
+.music__img{
+    position: relative;
+    height: 350px;
+    float: right;
+    margin-right: 150px;
+}
+
 .hero__container  h1{
     font-size: 20px;
     bottom: 30px;
@@ -189,34 +196,30 @@
     transition: 0.4s;
 }
 .footer__container{
-  position: relative;
-    height: 30vh;
-    background-color: #131313;
-    width: 100%;
+    position: relative;
     top: 100px;
-    bottom: 0px;
-    vertical-align: middle;
-    align-items: center;
+    height: 25vh;
+    width: 100%;
+    background-color: black;
     text-align: center;
-
+}
+.footer__container ul{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    display: inline-block;
+}
+.footer__container ul li{
+    display: inline-block;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 .footer__container ul li h1{
-    color: #fff;
-    text-align: left !important;
-    padding: 70px 150px;
-
-    
+    color: white;
 }
-.footer__rightside{
-    text-align: right;
-    font-size: 50px;
-    color: #fff;
-    
-
-
-}
-.footer__rightside i{
-    margin: 30px;
-    position: relative;
-    bottom: 70px;
+.footer__container ul li a{
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
 }
